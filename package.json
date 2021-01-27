@@ -1,0 +1,29 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"live-server src",
+    "test":"echo \"Error: no test specified\" && exit 1",
+    "lint":"eslint .",
+    "build":"babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VG90sp/task.git"
+  },
+  "keywords": [
+    "task"
+  ],
+  "author": "Vladimir Grigoryev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VG90sp/task/issues"
+  },
+  "homepage": "https://github.com/VG90sp/task#readme"
+}
