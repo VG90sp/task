@@ -1,17 +1,25 @@
 {
   "name": "task",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "core-js": "^3.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "http-server": "^0.12.3",
+    "live-server": "^1.2.1"
+  },
   "scripts": {
-    "start":"live-server src",
-    "test":"echo \"Error: no test specified\" && exit 1",
-    "lint":"eslint .",
-    "build":"babel src -d dist"
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -25,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/VG90sp/task/issues"
   },
-  "homepage": "https://github.com/VG90sp/task#readme"
+  "homepage": "https://github.com/VG90sp/task#readme",
+  "description": ""
 }
